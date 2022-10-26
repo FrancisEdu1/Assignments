@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+ 
+}
+:root {
+  --backgroung-color-overall: #1a1c28;
+  --background-color1: #eb5020;
+  --background-color2: #ffa401;
+  --background-color3: #05aa42;
+  --background-color4: #01aefd;
+}
+body {
+  background-color: var(--backgroung-color-overall);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+
+  
+}
+main{
+  width: 47%;
+  margin: auto;
+  align-items: center;
+}
+
+div {
+  border: 10px transparent;
+  height: 200px;
+}
+.main1 {
+  display: flex;
+}
+.main2 {
+  display: flex;
+  margin-top: 10px;
+}
+
+.flex1 {
+  background-color: var(--background-color3);
+  flex-grow: 3.5;
+  margin: 5px;
+}
+.flex2 {
+  /* background-color: bisque; */
+  /* height: 100px; */
+
+  flex-grow: 4;
+  margin: 5px;
+}
+.sub1 {
+  background-color: var(--background-color4);
+  height: 95px;
+}
+.sub2 {
+  background-color: var(--background-color4);
+  margin-top: 10px;
+  height: 95px;
+}
+.flex3 {
+  background-color: var(--background-color1);
+  flex-grow: 2;
+  margin: 5px;
+}
+.flex4 {
+  background-color: var(--background-color2);
+  flex-grow: 1;
+  margin: 5px;
+}

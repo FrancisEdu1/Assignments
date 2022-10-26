@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --backgroung-color-overall: #1a1c28;
+  --background-color1: #eb5020;
+  --background-color2: #ffa401;
+  --background-color3: #05aa42;
+  --background-color4: #01aefd;
+}
+body{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--backgroung-color-overall);
+
+}
+main{
+    display: grid;
+    grid-template-areas: 
+    'a a b'
+    'c d d'
+    'c e e'
+    ;
+
+    gap: 1em;
+
+    width: 50%;
+    margin: auto;
+}
+main div{
+    padding: 3em;
+    
+
+}
+
+.a {
+  background-color: var(--background-color1);
+  grid-area: a;
+  height: 6em;
+}
+.b {
+  background-color: var(--background-color2);
+  grid-area: b;
+  height: 6em;
+}
+.c {
+  background-color: var(--background-color3);
+  grid-area: c;
+}
+.d {
+  background-color: var(--background-color4);
+  grid-area: d;
+  
+}
+.e {
+  background-color: var(--background-color4);
+  grid-area: e;
+  
+}
+

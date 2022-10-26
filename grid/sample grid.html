@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid</title>
+    <link rel="stylesheet" href="samaple grid.css" />
+  </head>
+
+  <!-- I sectioned 2 div (main1 and main2) inside the body tag
+in other to be able to set them to flex-direction: column; in css -->
+
+  <body>
+    <main>
+      <!-- main1 and main2 set to display: flex: to be 
+    able to display side by side -->
+
+      <div class="main1">
+        <div class="flex3"></div>
+        <div class="flex4"></div>
+      </div>
+
+      <div class="main2">
+        <div class="flex1"></div>
+
+        <!-- body tag set to flex-direction: column; also took 
+    care of sub1 and sub2 -->
+
+        <div class="flex2">
+          <div class="sub1"></div>
+          <div class="sub2"></div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
