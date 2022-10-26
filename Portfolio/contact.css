@@ -1,0 +1,122 @@
+
+
+/* }starting from the root */
+
+:root{
+    --main-background: white;
+    --main-font-color: #010101;
+    --secondary-background: #010101;
+    --sec_pri-background: #4E5CFF;
+    --main-font-family: 'poppins', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    
+
+}
+body{
+    
+    height: 100vh;
+    background-color: #0f0e0e;
+     
+}
+
+main{
+    padding-top: 2em;
+    width: 90%;
+    margin: auto;
+    
+}
+img{
+    width: 111%;
+margin: auto;}
+
+header{
+    width: 100%;
+    margin: auto;
+    background-color: rgb(8, 8, 8);
+    padding: 16px 0 16px 0;
+}
+.nav-section{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
+ul{
+    display: inline-flex;
+    list-style-type: none;
+    align-items: center;
+    
+}
+
+li a{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+a{
+    text-decoration: none;
+    font-family: var(--main-font-family);
+    font-weight: 400;
+    color: white;
+    padding: 0em 2em;
+    
+}
+
+.mail-button{
+    background-color: #ff9900;
+    margin-left:10em;
+    padding: 16px;
+    border-radius: 3em;
+    text-align: center;
+}
+.mail-button a{
+    color: white;
+}
+.navli{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2em;  
+}
+.hero img{
+    width: 30%;
+    border-radius: 4em;
+}
+
+h1{
+    line-height: 90px;
+    font-size: 78px;
+    font-weight: 900;
+    font-family: var(--main-font-family);
+    color: white;
+    
+}
+p{
+    font-family: var(--main-font-family);
+}
+
+
+footer{
+    margin-top: 2em;
+    width: 100%;
+    background-color: #010101;
+}
+footer p{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    height: 10vh;
+    font-weight: 300;
+    font-size: 8px;
+   
+}
+
+}
